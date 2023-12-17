@@ -6,9 +6,9 @@ This tool comes in handy if you have multiple keywords/entities and need to quic
 
 You will first need to install some python modules:
 
-> pip install inscriptis
-> pip install numpy
-> pip install unidecode
+pip install inscriptis
+pip install numpy
+pip install unidecode
 
 Now you will need a ScaleSerp API: co-mentioned searches Google via a third-party API. Free tokens are available at ScaleSerp and paid ones are fairly cheap too. 
 
@@ -22,7 +22,7 @@ hamas
 
 Now you're set and can run the co-mentioned.py file:
 
-> python3 co-mentioned.py
+python3 co-mentioned.py
 
 The tool will first combine the entities you saved in the entities.txt file generating as many keyword pairs as possible. Then it will search each pair on Google in order to retrieve urls. In our case, it will look up on Google:
 
@@ -49,7 +49,5 @@ Note that co-mentioned *searches* keyword pairs but *detects* all the keywords t
 The REPORT.csv file is created automatically in the local directory and contains three columns separated by '|':
 
 URL|Entities|Distance
-
-
 
 Last but not least, in the case where three or more entities are matched in the same web page, the "Distance" indicator is about the closest pair of entities.
