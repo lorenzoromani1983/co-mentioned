@@ -42,6 +42,7 @@ If your ScaleSerp token has enough API calls to complete the search job, it will
 Next, it will start opening each url in order to:
 
 a) detect if at least 2 keywords are on the web page
+
 b) compute the minimum distance between the keywords
 
 If more than 1 keyword are on the same page, co-mentioned computes the minimum distance between the keywords and saves the results in the REPORT.csv file.
