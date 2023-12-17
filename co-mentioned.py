@@ -6,6 +6,7 @@ import os
 import csv
 from inscriptis import get_text
 from multiprocessing import Pool, Manager
+import numpy as np
 from functools import partial
 
 def search(combination, urls, token):
