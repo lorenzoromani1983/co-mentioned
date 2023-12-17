@@ -15,7 +15,9 @@ Save your token in the 'token.txt' file.
 Now, type your target keywords/entities in the 'entities.txt' file. One line, one entity. No quotes:
 
 alaeddin senguler
+
 trend gyo
+
 hamas
 
 Now you're set and can run the co-mentioned.py file:
@@ -25,7 +27,9 @@ Now you're set and can run the co-mentioned.py file:
 The tool will first combine the entities you saved in the entities.txt file generating as many keyword pairs as possible. Then it will search each pair on Google in order to retrieve urls. In our case, it will look up on Google:
 
 "alaeddin senguler" "trend gyo"
+
 "alaeddin senguler" "hamas"
+
 "hamas" "trend gyo"
 
 Quotes are added automatically, so you won't need to enclose keywords in quotes in the entities.txt file. 
