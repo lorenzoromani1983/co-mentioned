@@ -4,12 +4,9 @@ import itertools
 import re
 import os
 import csv
-import json
 from inscriptis import get_text
-import numpy as np
 from multiprocessing import Pool, Manager
 from functools import partial
-import time
 
 def search(combination, urls, token):
     print("Searching: ", combination)
